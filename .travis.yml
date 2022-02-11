@@ -7,7 +7,7 @@ services:
 
 before_install:
   # - echo $DOCKER_PASSWORD | docker login --username "modo24" --password-stdin
-  - docker login -u modo24 --password $DOCKER_PASSWORD
+  - docker login -u modo24
 
 before_script: pip install docker-compose
 
